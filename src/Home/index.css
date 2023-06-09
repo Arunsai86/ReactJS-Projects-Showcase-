@@ -1,0 +1,73 @@
+.nav-container {
+  background-color: #f1f5f9;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo {
+  width: 110px;
+  margin-left: 50px;
+}
+.app-container {
+  padding-top: 20px;
+  background-color: #fffff7;
+  padding-left: 50px;
+  min-height: 100vh;
+}
+.input-bar {
+  width: 220px;
+  height: 28px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  list-style-type: none;
+  margin: 5px;
+  width: 200px;
+  background-color: #ffffff;
+  box-shadow: 1px 4px 16px 0px #e2e8f0;
+  border-radius: 10px;
+}
+.image {
+  width: 100%;
+}
+.heading {
+  font-size: 10px;
+  color: #475569;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.failure-image {
+  margin-top: 20px;
+  width: 40%;
+}
+.failure-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-heading {
+  font-size: 20px;
+}
+button {
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  background-color: #328af2;
+  color: #ffffff;
+}
